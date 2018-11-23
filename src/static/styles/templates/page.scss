@@ -1,0 +1,19 @@
+.page-content{
+    box-shadow: 0 2px 5px #DFDFDA;
+    background: #ffffff;
+    display: block;
+    h1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    p{
+        padding: 10px;
+    }
+    hr{
+        color: rebeccapurple;
+        border-width: 0.5px;;
+    }
+    &-inner{
+        padding-bottom: 25px;
+    }
+}
