@@ -100,3 +100,4 @@ workflows:
                 - master
           requires:
             - build-job
+gt
