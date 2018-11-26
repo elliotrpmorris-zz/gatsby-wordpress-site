@@ -7,8 +7,8 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
         options: {
-          baseUrl: "elliot.local",
-          protocol: "http",
+          baseUrl: "elliotmorris.xyz",
+          protocol: "https",
           hostingWPCOM: false,
           useACF: false,
           verboseOutput: true,       
