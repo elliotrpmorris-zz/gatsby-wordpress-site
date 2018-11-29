@@ -18,24 +18,6 @@ https://medium.com/@kwa29/how-to-secure-nginx-with-lets-encrypt-on-debian-strech
 3)Set up phpmyadmin
 https://www.rosehosting.com/blog/how-to-install-phpmyadmin-on-debian/
 
-#Use this 
---------
-//Webhook
-add_action( 'save_post', 'fireFunctionOnSave' );
-function fireFunctionOnSave($post_id)
-{
-  if(wp_is_post_revision( $post_id) || wp_is_post_autosave( $post_id )) {
-    return;
-  }
-  exec("mkdir /Applications/MAMP/htdocs/data");
-  /*  $curl = curl_init( 'https://webhook.site/c9bf29b1-5001-4dbc-8c4e-0b9300c088b1' );
-    curl_setopt( $curl, CURLOPT_POST, true );
-    curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
-    $response = curl_exec( $curl );
-	curl_close( $curl );
-  */
-}
-
 #To Do
 -------
 1) Redirect all /wp* to wordpress rest to gatsby
